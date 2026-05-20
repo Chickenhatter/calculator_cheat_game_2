@@ -6,7 +6,7 @@ while True:
             print(tic_map[0][0],tic_map[0][1],tic_map[0][2])
             print(tic_map[1][0],tic_map[1][1],tic_map[1][2])
             print(tic_map[2][0],tic_map[2][1],tic_map[2][2])
-        choice = input("row/colomn/x")
+        choice = input("row/colomn/x: ")
         if tic_map[int(choice[0])-1][int(choice[1])-1] == '.':
             tic_map[int(choice[0])-1][int(choice[1])-1] = "X"
         if game_fish == False:#trickeck
@@ -42,7 +42,7 @@ while True:
             print(tic_map[0][0],tic_map[0][1],tic_map[0][2])
             print(tic_map[1][0],tic_map[1][1],tic_map[1][2])
             print(tic_map[2][0],tic_map[2][1],tic_map[2][2])
-        choice = input("row/colomn/o")
+        choice = input("row/colomn/o: ")
         if tic_map[int(choice[0])-1][int(choice[1])-1] == '.':
             tic_map[int(choice[0])-1][int(choice[1])-1] = "O"
         if game_fish == False:#trickeck
