@@ -5,6 +5,7 @@ C = input('C(angle): ')
 a = input('a(size): ')
 b = input('b(size): ')
 c = input('c(size): ')
+h = ''
 if A:
     A = float(A)
     A = (math.radians(A))
@@ -58,13 +59,32 @@ for i in range(6):
             B = math.asin(b*math.sin(C)/c)
     
     if not a and b and c and A:
-        a = ((b*b+c*c-2*bc*math.cos(A))**0.5)
+        a = ((b*b+c*c-2*b*c*math.cos(A))**0.5)
     
     if a and not b and c and B:
-        b = ((a*a+c*c-2*ac*math.cos(B))**0.5)
+        b = ((a*a+c*c-2*a*c*math.cos(B))**0.5)
     
     if a and b and not c and C:
-        c = ((b*b+a*a-2*ba*math.cos(C))**0.5)
+        c = ((b*b+a*a-2*b*a*math.cos(C))**0.5)
+    
+    if a and b and c and not A:
+        A = math.acos((c*c+b*b-a*a)/(2*c*b))
+    if a and b and c and not B:
+        B = math.acos((c*c+a*a-b*b)/(2*c*a))
+    if a and b and c and not C:
+        C = math.acos((a*a+b*b-c*c)/(2*a*b))
+
+
+if A and c and b and not h:
+    h = (c*b*math.sin(A))/(2)
+if B and c and a and not h:
+    h = (c*a*math.sin(B))/(2)
+if C and a and b and not h:
+    h = (a*b*math.sin(C))/(2)
+
+
+
+
 
 
 if A:
@@ -79,3 +99,5 @@ if b:
     print('b ',b)
 if c:
     print('c ',c)
+if h:
+    print('h ',h)
