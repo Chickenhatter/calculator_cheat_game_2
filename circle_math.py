@@ -11,9 +11,9 @@ else:
   asi = ((angle/360)*2*math.pi*radius)
   aos = ((angle/360)*math.pi*radius*radius)
 if l == 1:
-  aot = (0.5*radius*radius*sin(angle))
+  aot = (0.5*radius*radius*math.sin(angle))
 else:
-  aot = (0.5*radius*radius*sin(angle*(maths.pi/180)))
+  aot = (0.5*radius*radius*math.sin(angle*(math.pi/180)))
   aosh = aos-aot
 
 
