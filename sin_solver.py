@@ -237,18 +237,18 @@ if A and B and C:
         tt = 'Not True'
 if radwdaw[2] == 1:
     if A:
-        print('A ',D)
+        print('A ',A)
     if B:
-        print('B ',E)
+        print('B ',B)
     if C:
-        print('C ',F)
+        print('C ',C)
 else:
     if A:
-        print('A ',D*180/(math.pi))
+        print('A ',A*180/(math.pi))
     if B:
-        print('B ',E*180/(math.pi))
+        print('B ',B*180/(math.pi))
     if C:
-        print('C ',F*180/(math.pi))
+        print('C ',C*180/(math.pi))
 if a:
     print('a ',a)
 if b:
