@@ -14,7 +14,7 @@ if l == 1:
   aot = (0.5*radius*radius*math.sin(angle))
 else:
   aot = (0.5*radius*radius*math.sin(angle*(math.pi/180)))
-  aosh = aos-aot
+aosh = aos-aot
 
 
 print(asi,'arc size')

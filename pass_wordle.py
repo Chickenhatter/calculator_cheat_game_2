@@ -37,11 +37,11 @@ if loop == 0:
                 else:
                     filler[woop] = 'X'
                 woop += 1
-            print(f'{filler[0]}{filler[1]}{filler[2]}{filler[3]}{filler[4]}')
+            print({filler[0]}+{filler[1]}+{filler[2]}+{filler[3]}+{filler[4]})
             if ((filler[0])+(filler[1])+(filler[2])+(filler[3])+(filler[4])) == word:
                 break
             loop += 1
 if loop == 5:
     print('You lost, the word was ', {word})
 else:
-    print(f'You win, the word was {word}')
+    print('You win, the word was', {word})
