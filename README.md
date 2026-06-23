@@ -18,4 +18,4 @@
 <p>https://www.programiz.com/online-compiler/6bPXOdBGEx272 circle_solver</p>
 <p>https://www.programiz.com/online-compiler/0Rcg7N9f9C7oO sin solver</p>
 
-<img src="https://github.com/Chickenhatter/casio/blob/main/image.jpeg">
+<img src="https://github.com/Chickenhatter/calculator_games/blob/main/image.jpeg">
