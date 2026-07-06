@@ -11,11 +11,23 @@
 
 <p>In all situations that say up down left right they mean the calculator standard keys (2,8,6,4)</p>
 <p>Demos</p>
-<p>https://www.programiz.com/online-compiler/5MSScRJgQn9U7 battleship</p>
+<p>I am placing their descriptions here to save storage on the calculator</p>
+<p></p>
+<p>https://www.programiz.com/online-compiler/1IiXBYtVCby8j battleship</p>
+<p></p>
 <p>https://www.programiz.com/online-compiler/1yss6mF9tdk4D tic tac toe</p>
+<p></p>
 <p>https://www.programiz.com/online-compiler/0ett1Qbi78B5S wordle</p>
+<p></p>
 <p>https://www.programiz.com/online-compiler/3ett1QRua834b abc solver</p>
+<p></p>
 <p>https://www.programiz.com/online-compiler/6bPXOdBGEx272 circle_solver</p>
+<p>This program needs all inputs, first it for either 0 for false or for true. This shall decide if the angle you are going to input is rad or not.</p>
+<p>This program solves for circle triganometry geometry</p>
+<p></p>
 <p>https://www.programiz.com/online-compiler/0Rcg7N9f9C7oO sin solver</p>
+<p>Starting input asks for three numbers, either 0 for false or for true. This shall decide if first angles are in rad, if the working is shown in rad and finally if the output is in rad</p>
+<p>Following this it asks for three angles three sides and the area of the triangle, you can place in as many as you want and the code will try and solve as many of the others as possible, an easy rule is that typically you only need three inputs to solve the rest as long as they are all not angles or one is height</p>
+<p></p>
 
 <img src="https://github.com/Chickenhatter/calculator_games/blob/main/image.jpeg">
