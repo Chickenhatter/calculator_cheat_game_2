@@ -7,9 +7,10 @@
 
 <p>These are some games that can be placed onto your casio casio 9680 Giii and will function on them</p>
 <p>One issue you may encounter is they have no try except to save storage on your calculator</p>
-<p>You can experience them on these links</p>
 
-<p>In all situations that say up down left right they mean the calculator standard keys (2,8,6,4)</p>
+<p>You can experience them on these links</p>
+<p>These are not intended to be played on the python links below, these are just to show they work but they are harder to work with on keyboard</p>
+<p>In all situations that say up down left right they mean the calculator standard keys (2(down),8(up),6(right),4(left)</p>
 <p>Demos</p>
 <p>I am placing their descriptions here to save storage on the calculator</p>
 <p></p>
