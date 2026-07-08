@@ -17,18 +17,21 @@
 
 <p>https://www.programiz.com/online-compiler/1IiXBYtVCby8j battleship</p>
 <p>This is battleships, pass and play so you give the calc between the two people and you shoot for a ship</p>
-<p></p>you start by placing cordinant of each ship and which direction</p>
-<p>Next you pass and play shooting at the ships with x meaning hit and O meaning miss</p>
+<p>you start by placing cordinant of each ship(by giving two numbers which are one to six, with the first being row and second being column from top left) and which direction(2,8,6,4)</p>
+<p>Next you pass and play shooting at the ships(once again placing in numbers corresponding row and column) with x meaning hit and O meaning miss</p>
 <p>Play untill all ships are shot, there is no error checking on good faith between players</p>
 
 <p></p>
 
 <p>https://www.programiz.com/online-compiler/1yss6mF9tdk4D tic tac toe</p>
-<p>This is tic tac toe with the cordinants being y from top to bottom and x from left to right, eg 12 is top and second to left, place in 1-3,1-3</p>
+<p>This is tic tac toe with the cordinants being y from top to bottom and x from left to right, eg 12 is top and second to left, 11 is top left, 33 is bottom right, place in 1-3 and 1-3</p>
 <p></p>
 
 <p>https://www.programiz.com/online-compiler/0ett1Qbi78B5S wordle</p>
-<p>Place in a 5 letter word and then pass to another person, that person then has to try and guess the word in five guesses with ? meaning wrong space capital X meaning not in the word and the letter meaning correct place
+<p>Place in a 5 letter word and then pass to another person, that person then has to try and guess the word in five guesses with ? meaning wrong space in the word but it is in the word, capital X meaning not in the word and the letter meaning correct place</p>
+
+<p></p>
+<p>The next few are mathmatics</p>
 <p></p>
 
 <p>https://www.programiz.com/online-compiler/3ett1QRua834b abc solver</p>
